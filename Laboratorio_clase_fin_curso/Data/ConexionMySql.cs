@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -36,23 +37,26 @@ namespace Laboratorio_clase_fin_curso.Data
                     connection.Open();
                     MySqlDataReader reader = cmd.ExecuteReader();
                     
-
+                    int count = 0;
                     while (reader.Read())
                     {
                         Consolas consola = new Consolas
                         (
-                            id: reader.GetInt32("ID"),
-                            nombre_consola: reader.GetString("Nombre"),
+                            id: reader.GetInt32("id_consola"),
+                            nombre_consola: reader.GetString("nombre_consola"),
                             compania: reader.GetString("Compania"),
-                            anio_lanzamiento: reader.GetInt32("Anio_lanzamiento"),
-                            generacion: reader.GetInt32("Generacion")
+                            anio_lanzamiento: reader.GetInt32("anio_lanzamiento"),
+                            generacion: reader.GetInt32("generacion")
 
                             );
                             
 
                         consolas.Add(consola);
+                        count++;
+                        
                     }
                     reader.Close();
+                    
                 }
                 catch (Exception ex)
                 {

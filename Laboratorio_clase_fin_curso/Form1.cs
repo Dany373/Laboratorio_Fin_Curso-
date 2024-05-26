@@ -25,6 +25,7 @@ namespace Laboratorio_clase_fin_curso
         {
             InitializeComponent();
             Cargar = new Consolas();
+            LlenarComboBox();
         }
 
         private void buttonCargar_Click(object sender, EventArgs e)
@@ -47,6 +48,7 @@ namespace Laboratorio_clase_fin_curso
 
         private void botonPrueba_Click(object sender, EventArgs e)
         {
+            
             if (Cargar.ProbarConexion())
             {
                 MessageBox.Show("Conexion establecida!");
@@ -66,6 +68,7 @@ namespace Laboratorio_clase_fin_curso
                 textBoxNombre.Text = c.Nombre_consola;
                 textBoxCompania.Text = c.Compania;
                 textBoxAnio.Text = c.Anio_lanzamiento.ToString();
+                textBoxGeneracion.Text = c.Generacion.ToString();
 
                 //incrementar el cursor y validar que no se pase del total de registros
                 cursor1.current++;
@@ -80,6 +83,18 @@ namespace Laboratorio_clase_fin_curso
         private void buttonSiguiente_Click(object sender, EventArgs e)
         {
             MostrarRegistroConsolas();
+        }
+
+        private void LlenarComboBox()
+        {
+            comboBoxCompanias.Items.AddRange(new string[] { "Atari", "Coleco", "Mattel", "Microsoft", "Nintendo", "Ouya Inc.", "Sega", "Sony" });
+        }
+
+        private void comboBoxCompanias_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string consolaSeleccionada = comboBoxCompanias.SelectedItem.ToString();
+            List<Consolas> consolasFiltradas = todas.Where(c => c.Compania == consolaSeleccionada).ToList();
+            dataGridView1.DataSource = consolasFiltradas;
         }
     }
 }

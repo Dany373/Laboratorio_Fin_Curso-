@@ -78,26 +78,11 @@
             // comboBoxCompanias
             // 
             this.comboBoxCompanias.FormattingEnabled = true;
-            this.comboBoxCompanias.Items.AddRange(new object[] {
-            "Atari",
-            " ",
-            "Coleco",
-            " ",
-            "Mattel",
-            " ",
-            "Microsoft",
-            " ",
-            "Nintendo",
-            " ",
-            "Ouya Inc.",
-            " ",
-            "Sega",
-            " ",
-            "Sony"});
             this.comboBoxCompanias.Location = new System.Drawing.Point(629, 84);
             this.comboBoxCompanias.Name = "comboBoxCompanias";
             this.comboBoxCompanias.Size = new System.Drawing.Size(180, 21);
             this.comboBoxCompanias.TabIndex = 3;
+            this.comboBoxCompanias.SelectedIndexChanged += new System.EventHandler(this.comboBoxCompanias_SelectedIndexChanged);
             // 
             // botonPrueba
             // 
