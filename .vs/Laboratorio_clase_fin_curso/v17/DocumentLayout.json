@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E25BC65-46E5-4345-B76E-FF42C25C695C}|Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso.csproj|c:\\users\\linaje escogido\\source\\repos\\laboratorio_clase_fin_curso\\laboratorio_clase_fin_curso\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E25BC65-46E5-4345-B76E-FF42C25C695C}|Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso.csproj|solutionrelative:laboratorio_clase_fin_curso\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E25BC65-46E5-4345-B76E-FF42C25C695C}|Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso.csproj|C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\laboratorio_clase_fin_curso\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E25BC65-46E5-4345-B76E-FF42C25C695C}|Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso.csproj|solutionrelative:laboratorio_clase_fin_curso\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E25BC65-46E5-4345-B76E-FF42C25C695C}|Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso.csproj|C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\laboratorio_clase_fin_curso\\data\\conexionmysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E25BC65-46E5-4345-B76E-FF42C25C695C}|Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso.csproj|solutionrelative:laboratorio_clase_fin_curso\\data\\conexionmysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E25BC65-46E5-4345-B76E-FF42C25C695C}|Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso.csproj|C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\laboratorio_clase_fin_curso\\data\\models\\consolas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E25BC65-46E5-4345-B76E-FF42C25C695C}|Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso.csproj|solutionrelative:laboratorio_clase_fin_curso\\data\\models\\consolas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E25BC65-46E5-4345-B76E-FF42C25C695C}|Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso.csproj|C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\laboratorio_clase_fin_curso\\data\\models\\clscursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E25BC65-46E5-4345-B76E-FF42C25C695C}|Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso.csproj|solutionrelative:laboratorio_clase_fin_curso\\data\\models\\clscursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClsCursor.cs",
+              "DocumentMoniker": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso\\Data\\Models\\ClsCursor.cs",
+              "RelativeDocumentMoniker": "Laboratorio_clase_fin_curso\\Data\\Models\\ClsCursor.cs",
+              "ToolTip": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso\\Data\\Models\\ClsCursor.cs",
+              "RelativeToolTip": "Laboratorio_clase_fin_curso\\Data\\Models\\ClsCursor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:57:56.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso\\Form1.cs",
+              "RelativeDocumentMoniker": "Laboratorio_clase_fin_curso\\Form1.cs",
+              "ToolTip": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso\\Form1.cs",
+              "RelativeToolTip": "Laboratorio_clase_fin_curso\\Form1.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAwwFEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:06:20.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConexionMySql.cs",
+              "DocumentMoniker": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso\\Data\\ConexionMySql.cs",
+              "RelativeDocumentMoniker": "Laboratorio_clase_fin_curso\\Data\\ConexionMySql.cs",
+              "ToolTip": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso\\Data\\ConexionMySql.cs",
+              "RelativeToolTip": "Laboratorio_clase_fin_curso\\Data\\ConexionMySql.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAA4AAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:57:47.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Consolas.cs",
+              "DocumentMoniker": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso\\Data\\Models\\Consolas.cs",
+              "RelativeDocumentMoniker": "Laboratorio_clase_fin_curso\\Data\\Models\\Consolas.cs",
+              "ToolTip": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso\\Data\\Models\\Consolas.cs",
+              "RelativeToolTip": "Laboratorio_clase_fin_curso\\Data\\Models\\Consolas.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAUwCwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:29:59.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso\\Form1.cs",
+              "RelativeDocumentMoniker": "Laboratorio_clase_fin_curso\\Form1.cs",
+              "ToolTip": "C:\\Users\\LINAJE ESCOGIDO\\source\\repos\\Laboratorio_clase_fin_curso\\Laboratorio_clase_fin_curso\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Laboratorio_clase_fin_curso\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:02:42.353Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
